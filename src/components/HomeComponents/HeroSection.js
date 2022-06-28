@@ -5,9 +5,9 @@ import heroBanner from '../../assets/images/herobanner.png';
 
 const HeroSection = () => {
     return (
-        <section>
+        <section className="container mx-auto py-5">
 
-            <div className="grid grid-cols md:grid-cols-2 px-2 md:px-10 items-center gap-x-2 py-10">
+            <div className="grid grid-cols md:grid-cols-2 px-2 items-center gap-x-2 py-10">
 
                 <div className="hero-text">
                     <h1 className="text-xl md:text-4xl font-bold">
