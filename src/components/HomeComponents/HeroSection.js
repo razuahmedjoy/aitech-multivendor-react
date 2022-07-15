@@ -16,10 +16,10 @@ const HeroSection = () => {
 
                     <h4 className="text-sm md:text-lg font-semibold py-5">Own A Professional Store At The Lowest Costs And Without Sales Commission</h4>
 
-                    <Button link="/" bgColor="bg-primary">Create Your Own Store For Free</Button>
+                    <Button link="/register" bgColor="bg-primary">Create Your Own Store For Free</Button>
                     <div className="mt-4">
 
-                        <Button link="/" bgColor="bg-secondary">Platform Experience</Button>
+                        <Button link="/register" bgColor="bg-secondary">Platform Experience</Button>
                     </div>
 
                 </div>

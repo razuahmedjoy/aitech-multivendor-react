@@ -32,9 +32,9 @@ const Pricing = () => {
                         plans.map((plan, index) =>
 
 
-                            <div key={index} className="pricing-item p-4">
+                            <div data-aos="flip-up" key={index} className="pricing-item p-4">
 
-                                <h4 className="text-lg mb-5 md:text-3xl font-semibold font-poppin uppercase text-center">{plan.name}</h4>
+                                <h4 className="text-lg mb-5 md:text-3xl font-semibold uppercase text-center">{plan.name}</h4>
 
                                 <div className="features my-8">
                                     <ul className="flex flex-col gap-y-3 p-1">
@@ -52,7 +52,7 @@ const Pricing = () => {
                                 </div>
 
                                 <div className="button flex justify-center">
-                                    <Button link="/" bgColor="bg-primary">{plan.buttonTxt}</Button>
+                                    <Button link="/register" bgColor="bg-primary">{plan.buttonTxt}</Button>
                                 </div>
 
                             </div>

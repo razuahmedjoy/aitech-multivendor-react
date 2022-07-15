@@ -4,8 +4,9 @@ import { Link, NavLink } from 'react-router-dom';
 
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
+import Button from '../utils/Button';
 
-const Header = () => {
+const Header = ({ navigation }) => {
 
     const [navOpen, setNavOpen] = useState(false);
 
@@ -21,59 +22,76 @@ const Header = () => {
                     </Link>
 
                 </div>
-                <div className="navigation pr-8 hidden md:block lg:mr-20">
-                    <ul className="flex gap-x-8 md:text-md lg:text-lg font-poppin">
-                        <li>
-                            <NavLink className="hover:text-primary duration-100" to="/">Home</NavLink>
+                {
+                    navigation &&
+                    <>
+                        <div className="navigation pr-8 hidden md:block lg:mr-5">
+                            <ul className="flex items-center gap-x-8 md:text-md lg:text-lg font-poppin font-[500]">
+                                <li>
+                                    <NavLink className="hover:text-primary duration-100" to="/">Home</NavLink>
 
-                        </li>
-                        <li>
+                                </li>
+                                {/* <li>
                             <NavLink className="hover:text-primary duration-100"  to="/">How It Works</NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="hover:text-primary duration-100"  to="/">Services</NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="hover:text-primary duration-100"  to="/">Contact Us</NavLink>
-                        </li>
-                    </ul>
-                </div>
+                        </li> */}
+                                <li>
+                                    <a className="hover:text-primary duration-100" href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a className="hover:text-primary duration-100" href="#contact">Contact Us</a>
+                                </li>
+                                <li>
+                                    <NavLink className="hover:text-primary duration-100" to="/login">Login</NavLink>
+                                </li>
+                                <li>
+                                    <Button link={"/register"} bgColor="bg-primary">Create Your Store</Button>
+                                </li>
+                            </ul>
+                        </div>
 
-                {/* mobile navigation */}
-                <div className="mobile-navigation pr-8 md:hidden">
-                    {
-                        navOpen
-                            ?
-                            <AiOutlineClose onClick={toggleNav} size="25" cursor="pointer" />
-                            :
-                            <FaBars onClick={toggleNav} size="25" cursor="pointer" />
+                        {/* mobile navigation */}
+                        <div className="mobile-navigation pr-8 md:hidden">
+                            {
+                                navOpen
+                                    ?
+                                    <AiOutlineClose onClick={toggleNav} size="25" cursor="pointer" />
+                                    :
+                                    <FaBars onClick={toggleNav} size="25" cursor="pointer" />
 
-                    }
+                            }
 
 
-                </div>
+                        </div>
+                    </>
+                }
 
 
             </header>
             {
                 navOpen &&
-                    <div className="w-full bg-[#f9f9f9] md:hidden">
-                        <ul className="flex flex-col gap-y-2 text-lg font-poppin pl-5 py-5 ">
-                            <li>
-                                <NavLink to="/">Home</NavLink>
+                <div className="w-full bg-[#f9f9f9] md:hidden">
+                    <ul className="flex flex-col gap-y-2 text-lg font-poppin pl-5 py-5 ">
+                        <li>
+                            <NavLink to="/">Home</NavLink>
 
-                            </li>
-                            <li>
+                        </li>
+                        {/* <li>
                                 <NavLink to="/">How It Works</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/">Services</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/">Contact Us</NavLink>
-                            </li>
-                        </ul>
-                    </div>
+                            </li> */}
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                        <li>
+                            <NavLink className="hover:text-primary duration-100" to="/login">Login</NavLink>
+                        </li>
+                        <li>
+                            <Button link={"/register"} bgColor="bg-primary">Create Your Store</Button>
+                        </li>
+                    </ul>
+                </div>
 
 
             }

@@ -41,11 +41,11 @@ const GrowthWithUs = () => {
                     <div>
                         {
                             ourFeatures.map((x, index) =>
-                                <div key={index} className="min-h-[136px] text-center lg:flex lg:text-left items-start gap-x-6 mb-8">
+                                <div data-aos="fade-up" key={index} className="min-h-[136px] text-center lg:flex lg:text-left items-start gap-x-6 mb-8">
                                     <img src={x.icon} className="w-[100px] h-[100px] mx-auto lg:mx-0" alt="" />
                                     <div className="flex flex-col justify-between gap-y-5">
-                                        <h4 className="text-lg md:text-2xl font-semibold font-poppin mt-4 md:mt-0">{x.title}</h4>
-                                        <p className="text-sm">{x.description}​</p>
+                                        <h4 className="text-lg md:text-2xl font-semibold mt-4 md:mt-0">{x.title}</h4>
+                                        <p className="text-sm text-[16px]">{x.description}​</p>
                                     </div>
 
                                 </div>

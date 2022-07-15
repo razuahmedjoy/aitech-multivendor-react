@@ -44,15 +44,15 @@ const Footer = () => {
                         <h6 className="text-lg mb-5">Contact us</h6>
                         <div className="flex gap-2 my-2">
                             <AiFillMail size={20} />
-                            <span>info@ai-tech.com</span>
+                            <span>info@pythonistindia.com</span>
                         </div>
                         <div className="flex gap-2 my-2">
                             <AiFillPhone size={20} />
-                            <span>01XXXXXXXX</span>
+                            <span>+91 7411535043</span>
                         </div>
                         <div className="flex gap-2">
                             <AiFillHome size={20} />
-                            <span>Bengalore, India</span>
+                            <span>Jayant Santis ,ramanashree california garden near anantapur gate yelhanka-560042</span>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
 
             <div className="footer-bottom border border-t py-2">
                 <p className="text-center text-sm">
-                Copyright {new Date().getFullYear()}, All Rights Reserved @ ai-tech.com.sa
+                Copyright {new Date().getFullYear()}, All Rights Reserved @ <a href="/">pythonistindia.com</a>
                 </p>
 
             </div>

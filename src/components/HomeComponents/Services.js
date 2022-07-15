@@ -40,19 +40,20 @@ const services = [
     },
 ]
 const Services = () => {
+
     return (
-        <section className="px-2 md:px-5 lg:px-10">
+        <section id="services" className="px-2 md:px-5 lg:px-10">
 
             <div className="py-5">
                 <SectionTitle>We Provide Services <br></br> for Your Need.</SectionTitle>
 
-                <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-14 py-20 mx-auto">
+                <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-14 py-20 mx-auto">
                     {
                         services.map((service, index) =>
-                            <div key={index} className="flex flex-col items-center gap-y-4 mb-10 border p-8 hover:border-primary duration-300 relative">
+                            <div data-aos="zoom-in" key={index} className="flex flex-col items-center gap-y-4 mb-10 border p-8 hover:border-primary duration-300 relative">
                                 <img src={service.icon} className="w-[100px] mx-auto mb-5 absolute top-[-60px]" alt="" />
-                                <h3 className="max-w-[320px] md:min-h-[70px] text-lg mt-5 md:text-2xl lg:text-3xl font-bold text-center">{service.title}</h3>
-                                <p className="max-w-[340px] text-center text-[12px] lg:text-[14px] text-black  leading-6">{service.description}</p>
+                                <h3 className="max-w-[320px] md:min-h-[120px] text-lg mt-5 md:text-2xl lg:text-3xl font-bold text-center">{service.title}</h3>
+                                <p className="max-w-[340px] text-center text-[12px] lg:text-[16px] text-black  leading-6">{service.description}</p>
 
                             </div>
                         )
