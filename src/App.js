@@ -8,6 +8,9 @@ import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 
 import Customers from './pages/Dashboard/Customer/Customers';
+import Invoices from './pages/Dashboard/Billing/Billing';
+import AddInvoice from './pages/Dashboard/Billing/AddInvoice';
+
 function App() {
   return (
     <HelmetProvider>
@@ -27,6 +30,8 @@ function App() {
             <Route path="/dashboard" element={<DashboardLayout />}>
               <Route index element={<Dashboard/>}></Route>
               <Route path="customers" element={<Customers/>}></Route>
+              <Route path="invoices" element={<Invoices/>}></Route>
+              <Route path="add-invoice" element={<AddInvoice/>}></Route>
               <Route path="*" element={<h1>test</h1>}></Route>
              
             </Route>

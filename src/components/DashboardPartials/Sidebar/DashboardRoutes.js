@@ -9,6 +9,7 @@ import { BiCategory } from 'react-icons/bi';
 // route wise components
 import Dashboard from '../../../pages/Dashboard/Dashboard';
 import Customers from '../../../pages/Dashboard/Customer/Customers';
+import Invoices from '../../../pages/Dashboard/Billing/Billing';
 
 
 const vendorDashboardRoutes = [
@@ -51,7 +52,7 @@ const vendorDashboardRoutes = [
             {
                 title: 'Invoices',
                 path: 'invoices',
-                component: <hi>invoices</hi>,
+                component: <Invoices/>,
             },
             {
                 title: 'Add Invoice',
