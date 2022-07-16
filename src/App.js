@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 
+import Customers from './pages/Dashboard/Customer/Customers';
 function App() {
   return (
     <HelmetProvider>
@@ -25,7 +26,7 @@ function App() {
 
             <Route path="/dashboard" element={<DashboardLayout />}>
               <Route index element={<Dashboard/>}></Route>
-              <Route path="test" element={<h1>test</h1>}></Route>
+              <Route path="customers" element={<Customers/>}></Route>
               <Route path="*" element={<h1>test</h1>}></Route>
              
             </Route>
