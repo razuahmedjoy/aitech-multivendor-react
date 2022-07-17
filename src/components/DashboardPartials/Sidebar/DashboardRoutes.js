@@ -25,7 +25,7 @@ const vendorDashboardRoutes = [
         icon: <MdLabelImportantOutline />,
         submenu: [
             {
-                title: 'All Products',
+                title: 'Products',
                 path: 'products',
                 component: <hi>hi</hi>,
             },
@@ -33,7 +33,18 @@ const vendorDashboardRoutes = [
                 title: 'Add Product',
                 path: 'add-product',
                 component: <hi>hi</hi>,
-            }
+            },
+            {
+                title: 'Categories',
+                path: 'categories',
+                component: <hi>hi</hi>,
+            },
+            {
+                title: 'Tags',
+                path: 'tags',
+                component: <hi>hi</hi>,
+            },
+          
 
         ]
 
@@ -123,44 +134,7 @@ const vendorDashboardRoutes = [
         ]
 
     },
-    {
-        title: 'Product Tags',
-        icon: <MdLabelImportant />,
-        submenu: [
-            {
-                title: 'All Tags',
-                path: 'tags',
-                component: <hi>Tags</hi>,
-            },
-            {
-                title: 'Add New Tag',
-                path: 'add-tag',
-                component: <hi>Add Tag</hi>,
-            },
-         
-
-        ]
-
-    },
-    {
-        title: 'Categories',
-        icon: <BiCategory />,
-        submenu: [
-            {
-                title: 'All Categories',
-                path: 'categories',
-                component: <hi>Categories</hi>,
-            },
-            {
-                title: 'Add Category',
-                path: 'add-category',
-                component: <hi>Add Category</hi>,
-            },
-         
-
-        ]
-
-    },
+  
     {
         title: 'MailBox',
         icon: <AiFillMail />,

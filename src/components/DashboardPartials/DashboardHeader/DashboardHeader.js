@@ -1,5 +1,5 @@
 import React from 'react';
-
+import shop from "../../../assets/images/shop.png"
 const DashboardHeader = () => {
     return (
         <div class="navbar bg-primary text-white">
@@ -14,7 +14,7 @@ const DashboardHeader = () => {
                 </div>
             </div>
             <div class="navbar-center">
-                <a class="btn btn-ghost normal-case text-xl">Ai Tech</a>
+                <p class="normal-case text-base ">Vendor Dashboard</p>
             </div>
             <div class="navbar-end">
                
@@ -27,7 +27,7 @@ const DashboardHeader = () => {
                 <div class="dropdown dropdown-end">
                     <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                         <div class="w-10 rounded-full">
-                            <img src="https://placeimg.com/80/80/people" />
+                            <img src={shop} />
                         </div>
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black">

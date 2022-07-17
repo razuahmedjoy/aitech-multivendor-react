@@ -29,7 +29,7 @@ const AddInvoice = () => {
                             <span class="label-text">Date Sent</span>
 
                         </label>
-                        <input type="date" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="date" placeholder="dd/mm/yyyy" class="input input-bordered w-full max-w-md rounded-none" />
 
                     </div>
                     <div class="form-control w-full max-w-md">

@@ -3,6 +3,7 @@ import './Sidebar.css'
 import { Link, NavLink } from 'react-router-dom';
 
 import vendorDashboardRoutes from './DashboardRoutes';
+import logo from '../../../assets/images/logo.png';
 
 const Sidebar = () => {
 
@@ -14,8 +15,10 @@ const Sidebar = () => {
       <label for="my-drawer-2" class="drawer-overlay"></label>
       <ul class="menu w-60 bg-base-100 text-base-content">
 
-        <div className="text-xl text-center py-4 border-b">
-          <Link to="/dashboard/">Admin</Link>
+        <div className="text-xl text-center py-4 border-b flex justify-center">
+          <Link to="/dashboard/">
+            <img src={logo} className="w-28 text-center" alt="" />
+          </Link>
         </div>
 
 
@@ -63,7 +66,7 @@ const Sidebar = () => {
                 <li key={i}>
 
                   <NavLink className="hover:text-black" to={menu.path}>
-                   {menu.icon}
+                    {menu.icon}
                     {menu.title}
                   </NavLink>
                 </li>
@@ -73,7 +76,7 @@ const Sidebar = () => {
           })
         }
 
-      
+
 
       </ul>
 
