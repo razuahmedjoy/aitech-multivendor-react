@@ -18,6 +18,7 @@ import EditProduct from './pages/Dashboard/EditProduct/EditProduct';
 import Categories from './pages/Dashboard/Categories/Categories';
 import Tags from './pages/Dashboard/Tags/Tags';
 import Settings from './pages/Dashboard/Settings/Settings';
+import AddUser from './pages/Dashboard/Users/AddUser';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
               <Route path="add-invoice" element={<AddInvoice/>}></Route>
               <Route path="orders" element={<AllOrders/>}></Route>
               <Route path="users" element={<AllUsers/>}></Route>
+              <Route path="add-user" element={<AddUser/>}></Route>
               <Route path="products" element={<AllProducts/>}></Route>
               <Route path="add-product" element={<AddProducts/>}></Route>
               <Route path="edit-product" element={<EditProduct/>}></Route>

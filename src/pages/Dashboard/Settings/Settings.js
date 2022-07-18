@@ -50,6 +50,14 @@ const Settings = () => {
                     </div>
                     <div class="form-control w-full max-w-lg">
                         <label class="label">
+                            <span class="label-text">Site Logo</span>
+
+                        </label>
+                        <input type="file" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+
+                    </div>
+                    <div class="form-control w-full max-w-lg">
+                        <label class="label">
                             <span class="label-text">Address</span>
 
                         </label>
@@ -88,6 +96,28 @@ const Settings = () => {
                         <input type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
+
+
+                   
+
+
+
+                    <button className="btn btn-primary max-w-lg rounded-none text-white">Save</button>
+                </form>
+
+            </div>
+            <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2 mt-5">
+                <h2 className="text-title text-md md:text-xl pb-2 uppercase">Banner Settings</h2>
+                <form className="flex flex-col gap-4">
+                    <div class="form-control w-full max-w-lg">
+                        <label class="label">
+                            <span class="label-text">Banners (1500 x 450)</span>
+
+                        </label>
+                        <input type="file" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+
+                    </div>
+                 
 
 
                    
