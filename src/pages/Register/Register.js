@@ -19,7 +19,7 @@ const Register = () => {
 
                 <div className="container grid grid-cols-1 md:grid-cols-3 place-content-center mx-auto">
 
-                    
+
                     <div className="registration-form w-full mx-auto md:border-r-4 border-gray-200  px-2 md:px-8">
                         <form className="flex flex-col gap-y-2 py-5 justify-center w-full" onSubmit={handleSubmit(onSubmit)}>
 
@@ -75,8 +75,11 @@ const Register = () => {
 
                             </div>
                             <div className="form-control w-full">
-
-                                <input className="py-2 cursor-pointer btn-primary text-white w-full  rounded-none" type="submit" value="Register" />
+                                <Link to="/dashboard">
+                                    <button className="py-2 cursor-pointer btn-primary text-white w-full  rounded-none">Register</button>
+                                </Link>
+                                {/* 
+                                <input className="py-2 cursor-pointer btn-primary text-white w-full  rounded-none" type="submit" value="Register" /> */}
 
                             </div>
 

@@ -7,93 +7,93 @@ const Settings = () => {
             <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2 mt-5">
                 <h2 className="text-title text-md md:text-xl pb-2 uppercase">Basic Info</h2>
                 <form className="flex flex-col gap-4">
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Site Name</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Site Name</span>
 
                         </label>
-                        <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Date of Establishment</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Date of Establishment</span>
 
                         </label>
-                        <input type="date" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="date" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Date of Creation</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Date of Creation</span>
 
                         </label>
-                        <input type="date" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="date" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
 
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Brief</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Brief</span>
 
                         </label>
-                        <textarea class="textarea textarea-bordered w-full max-w-lg rounded-none shadow"></textarea>
+                        <textarea className="textarea textarea-bordered w-full max-w-lg rounded-none shadow"></textarea>
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Website</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Website</span>
 
                         </label>
-                        <input type="url" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="url" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Site Logo</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Site Logo</span>
 
                         </label>
-                        <input type="file" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="file" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Address</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Address</span>
 
                         </label>
-                        <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Address 2</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Address 2</span>
 
                         </label>
-                        <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">City</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">City</span>
 
                         </label>
-                        <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">State</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">State</span>
 
                         </label>
-                        <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Zip</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Zip</span>
 
                         </label>
-                        <input type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="number" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
 
@@ -109,12 +109,12 @@ const Settings = () => {
             <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2 mt-5">
                 <h2 className="text-title text-md md:text-xl pb-2 uppercase">Banner Settings</h2>
                 <form className="flex flex-col gap-4">
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Banners (1500 x 450)</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Banners (1500 x 450)</span>
 
                         </label>
-                        <input type="file" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="file" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
                  
@@ -131,36 +131,36 @@ const Settings = () => {
             <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2 mt-5">
                 <h2 className="text-title text-md md:text-xl pb-2 uppercase">Account Info</h2>
                 <form className="flex flex-col gap-4">
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Email</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Email</span>
 
                         </label>
-                        <input type="email" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="email" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Phone</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Phone</span>
 
                         </label>
-                        <input type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="number" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Password</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Password</span>
 
                         </label>
-                        <input type="password" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="password" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Confirm Password</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Confirm Password</span>
 
                         </label>
-                        <input type="password" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="password" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
 
@@ -172,28 +172,28 @@ const Settings = () => {
             <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2 mt-5">
                 <h2 className="text-title text-md md:text-xl pb-2 uppercase">Social Media Info</h2>
                 <form className="flex flex-col gap-4">
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Facebook URL</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Facebook URL</span>
 
                         </label>
-                        <input type="url" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="url" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">Twitter URL</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">Twitter URL</span>
 
                         </label>
-                        <input type="url" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="url" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
-                    <div class="form-control w-full max-w-lg">
-                        <label class="label">
-                            <span class="label-text">LinkedIn URL</span>
+                    <div className="form-control w-full max-w-lg">
+                        <label className="label">
+                            <span className="label-text">LinkedIn URL</span>
 
                         </label>
-                        <input type="url" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                        <input type="url" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                     </div>
                     

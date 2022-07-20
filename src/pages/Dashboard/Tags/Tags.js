@@ -45,31 +45,31 @@ const Tags = () => {
 
                     <div>
                         <form className="flex flex-col gap-4">
-                            <div class="form-control w-full max-w-lg">
-                                <label class="label">
-                                    <span class="label-text">Tag</span>
+                            <div className="form-control w-full max-w-lg">
+                                <label className="label">
+                                    <span className="label-text">Tag</span>
 
                                 </label>
-                                <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                                <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                             </div>
-                            <div class="form-control w-full max-w-lg">
-                                <label class="label">
-                                    <span class="label-text">Slug</span>
+                            <div className="form-control w-full max-w-lg">
+                                <label className="label">
+                                    <span className="label-text">Slug</span>
 
                                 </label>
-                                <input type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                                <input type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                             </div>
 
 
 
-                            <div class="form-control w-full max-w-lg">
-                                <label class="label">
-                                    <span class="label-text">Description</span>
+                            <div className="form-control w-full max-w-lg">
+                                <label className="label">
+                                    <span className="label-text">Description</span>
 
                                 </label>
-                                <textarea class="textarea textarea-bordered w-full max-w-lg rounded-none shadow"></textarea>
+                                <textarea className="textarea textarea-bordered w-full max-w-lg rounded-none shadow"></textarea>
 
                             </div>
 

@@ -7,37 +7,37 @@ const EditProduct = () => {
         <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2 mt-5">
             <h2 className="text-title text-md md:text-xl pb-2 uppercase">Basic Info</h2>
             <form className="flex flex-col gap-4">
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Product SKU</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Product SKU</span>
 
                     </label>
-                    <input value="sample data" type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="sample data" type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Product Name</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Product Name</span>
 
                     </label>
-                    <input value="sample data" type="text" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="sample data" type="text" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Date of Creation</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Date of Creation</span>
 
                     </label>
-                    <input value="sample data" type="date" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="sample data" type="date" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
 
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Status</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Status</span>
 
                     </label>
-                    <select class="select select-bordered max-w-lg rounded-none">
+                    <select className="select select-bordered max-w-lg rounded-none">
                         <option disabled selected>Select</option>
                         <option>In Stock</option>
                         <option>Out of Stock</option>
@@ -46,52 +46,52 @@ const EditProduct = () => {
 
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Product Image</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Product Image</span>
 
                     </label>
-                    <input type="file" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input type="file" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Quantity</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Quantity</span>
 
                     </label>
-                    <input value="45" type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="45" type="number" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Price</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Price</span>
 
                     </label>
-                    <input value="4508" type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="4508" type="number" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Tax</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Tax</span>
 
                     </label>
-                    <input value="20" type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="20" type="number" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Discount</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Discount</span>
 
                     </label>
-                    <input value="450" type="number" class="input input-bordered w-full max-w-lg rounded-none shadow" />
+                    <input value="450" type="number" className="input input-bordered w-full max-w-lg rounded-none shadow" />
 
                 </div>
-                <div class="form-control w-full max-w-lg">
-                    <label class="label">
-                        <span class="label-text">Details</span>
+                <div className="form-control w-full max-w-lg">
+                    <label className="label">
+                        <span className="label-text">Details</span>
 
                     </label>
-                    <textarea class="textarea textarea-bordered w-full max-w-lg rounded-none shadow"></textarea>
+                    <textarea className="textarea textarea-bordered w-full max-w-lg rounded-none shadow"></textarea>
 
                 </div>
 

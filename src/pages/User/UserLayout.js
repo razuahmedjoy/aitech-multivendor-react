@@ -1,11 +1,10 @@
 import React from 'react';
-import "./DashboardLayout.css"
 
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import Sidebar from '../../components/DashboardPartials/Sidebar/Sidebar';
 import DashboardHeader from '../../components/DashboardPartials/DashboardHeader/DashboardHeader';
 
-const DashboardLayout = () => {
+const UserLayout = () => {
     return (
         <>
             <div className="drawer drawer-mobile">
@@ -24,7 +23,7 @@ const DashboardLayout = () => {
 
                 </div>
 
-                <Sidebar role="vendor"/>
+                <Sidebar role="user" />
 
 
             </div>
@@ -32,8 +31,7 @@ const DashboardLayout = () => {
 
 
         </>
-
     );
 };
 
-export default DashboardLayout;
+export default UserLayout;

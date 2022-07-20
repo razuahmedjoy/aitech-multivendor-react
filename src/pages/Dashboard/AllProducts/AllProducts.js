@@ -17,7 +17,7 @@ const AllProducts = () => {
                     <input type="text" placeholder="Enter your Search" className="input border-none rounded-none focus:outline-none focus:border w-full shadow-md" />
                 </div>
                 <div className="flex items-center md:justify-end gap-4">
-                    <select class="select rounded-none shadow-md w-1/2 md:w-3/4">
+                    <select className="select rounded-none shadow-md w-1/2 md:w-3/4">
 
                         <option disabled selected className="font-normal">Sort by</option>
                         <option>Homer</option>

@@ -50,10 +50,13 @@ const Login = () => {
 
                                 </label>
                             </div>
-                      
+
                             <div className="form-control w-full">
 
-                                <input className="py-2 cursor-pointer btn-primary text-white w-full  rounded-none" type="submit" value="Login" />
+                                <Link to="/dashboard">
+                                    <button className="py-2 cursor-pointer btn-primary text-white w-full  rounded-none">Login</button>
+                                </Link>
+                                {/* <input className="py-2 cursor-pointer btn-primary text-white w-full  rounded-none" type="submit" value="Login" /> */}
 
                             </div>
 

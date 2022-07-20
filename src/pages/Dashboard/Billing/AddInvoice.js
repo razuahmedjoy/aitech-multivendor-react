@@ -8,44 +8,44 @@ const AddInvoice = () => {
             <div className="p-4 border border-gray-200 bg-white shadow-sm col-span-2">
 
                 <form className="flex flex-col gap-4">
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Invoice Number</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Invoice Number</span>
 
                         </label>
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Date of Creation</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Date of Creation</span>
 
                         </label>
-                        <input type="date" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="date" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Date Sent</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Date Sent</span>
 
                         </label>
-                        <input type="date" placeholder="dd/mm/yyyy" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="date" placeholder="dd/mm/yyyy" className="input input-bordered w-full max-w-md rounded-none" />
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Date Due</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Date Due</span>
 
                         </label>
-                        <input type="date" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="date" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Category</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Category</span>
 
                         </label>
-                        <select class="select select-bordered max-w-md rounded-none">
+                        <select className="select select-bordered max-w-md rounded-none">
                             <option disabled selected>Pick one</option>
                             <option>Star Wars</option>
                             <option>Harry Potter</option>
@@ -56,12 +56,12 @@ const AddInvoice = () => {
                       
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Status</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Status</span>
 
                         </label>
-                        <select class="select select-bordered max-w-md rounded-none">
+                        <select className="select select-bordered max-w-md rounded-none">
                             <option disabled selected>Pick one</option>
                             <option>Star Wars</option>
                             <option>New</option>
@@ -70,47 +70,47 @@ const AddInvoice = () => {
                       
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Customer</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Customer</span>
 
                         </label>
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
                       
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Product</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Product</span>
 
                         </label>
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Price</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Price</span>
 
                         </label>
-                        <input type="number" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="number" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
                       
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Tax</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Tax</span>
 
                         </label>
-                        <input type="number" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="number" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
                       
 
                     </div>
-                    <div class="form-control w-full max-w-md">
-                        <label class="label">
-                            <span class="label-text">Discount</span>
+                    <div className="form-control w-full max-w-md">
+                        <label className="label">
+                            <span className="label-text">Discount</span>
 
                         </label>
-                        <input type="number" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-none" />
+                        <input type="number" placeholder="Type here" className="input input-bordered w-full max-w-md rounded-none" />
                       
 
                     </div>
